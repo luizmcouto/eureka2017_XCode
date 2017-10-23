@@ -77,7 +77,7 @@ class ProjetoController: UIViewController, UITableViewDataSource, UITableViewDel
     override func viewDidAppear(_ animated: Bool) {
         self.curso = ""
         
-        self.trabalhoTableView.setContentOffset(CGPoint.zero, animated: false)
+        // self.trabalhoTableView.setContentOffset(CGPoint.zero, animated: false)
     }
 
     //------------------------------ preferredStatusBarStyle -------------------

@@ -80,6 +80,10 @@ class QRCodeController: UIViewController, AVCaptureMetadataOutputObjectsDelegate
             captureSession.stopRunning()
         }
     }
+    
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
+    }
 
     func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection){
         

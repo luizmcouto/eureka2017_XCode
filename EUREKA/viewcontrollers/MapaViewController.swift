@@ -32,4 +32,8 @@ class MapaViewController: UIViewController,UIScrollViewDelegate{
         return self.ImageView
     }
     
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
+    }
+    
 }

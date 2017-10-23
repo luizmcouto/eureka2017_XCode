@@ -728,9 +728,9 @@
 					"$(PROJECT_DIR)/EUREKA/database/aws/AmazonAws",
 				);
 				INFOPLIST_FILE = EUREKA/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.maua.EUREKA;
+				PRODUCT_BUNDLE_IDENTIFIER = br.maua.EUREKA2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "EUREKA/database/fmdb/EUREKA-Bridging-Header.h";
@@ -756,9 +756,9 @@
 					"$(PROJECT_DIR)/EUREKA/database/aws/AmazonAws",
 				);
 				INFOPLIST_FILE = EUREKA/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.maua.EUREKA;
+				PRODUCT_BUNDLE_IDENTIFIER = br.maua.EUREKA2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "EUREKA/database/fmdb/EUREKA-Bridging-Header.h";
